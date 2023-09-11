@@ -1,10 +1,15 @@
 body {
     text-align: center;
+    font-family: Verdana, sans-serif;
 }
 
 img {
     width: 400px;
     height: auto;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 li {
