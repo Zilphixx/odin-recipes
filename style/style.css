@@ -1,11 +1,25 @@
-body {
-    text-align: center;
-    font-family: Verdana, sans-serif;
+html,
+* {
+    box-sizing: border-box;
 }
 
-img {
-    width: 400px;
-    height: auto;
+body {
+    font-family: Verdana, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.link-container {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.img-container {
+    background-color: white;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -13,11 +27,11 @@ h1 {
 }
 
 li {
-  list-style-type: none;
-  font-size: 24px;
+    list-style: none;
 }
 
 li a {
     color: black;
     text-decoration: none;
+    font-size: 16px;
 }
